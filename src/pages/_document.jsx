@@ -55,14 +55,14 @@ export default function Document() {
   return (
     <Html className="antialiased [font-feature-settings:'ss01']" lang="en">
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KWHGF4F2P" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYHP9XE65T" />
       <script
         dangerouslySetInnerHTML={{
           __html: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-3KWHGF4F2P', {
+        gtag('config', 'G-PYHP9XE65T', {
           page_path: window.location.pathname,
         });
       `,
