@@ -1,5 +1,5 @@
 export function LogoSponsor() {
   return (
-    <img src="/images/hookdeck-black.png" />
+    <img src="/img/hookdeck-black.png" />
   )
 }
