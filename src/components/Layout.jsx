@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 import { Hero } from '@/components/Hero'
 import { Logo } from '@/components/Logo'
-import { LogoNgrok } from '@/components/LogoNgrok'
+import { LogoSponsor } from '@/components/LogoSponsor'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
@@ -60,8 +60,8 @@ function Header({ navigation }) {
           <a className="dark:text-slate-300">
             <span className="sr-only">ngrok</span>
             <div className="flex space-x-2 items-center hover:fill-sky-500">
-              <span className="flex-auto invisible md:visible">Built with love by</span>
-              <LogoNgrok className="flex-auto"/>
+              <span className="flex-auto invisible md:visible">Supported by</span>
+              <LogoSponsor className="flex-auto"/>
             </div>
           </a>
         </Link>
@@ -160,7 +160,7 @@ export function Layout({ children, title, navigation, tableOfContents }) {
           </dl>
           <Footer className="mt-12 flex border-t border-slate-200 pt-6 dark:border-slate-800 text-center text-slate-900 dark:text-white"/>
           {/* <p className="mt-12 flex border-t border-slate-200 pt-6 dark:border-slate-800 text-center text-slate-900 dark:text-white">
-            Built with love by ngrok
+            Supported by Hookdeck
           </p> */}
         </div>
         <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { LogoNgrok } from '@/components/LogoNgrok'
+import { LogoSponsor } from '@/components/LogoSponsor'
 
 export function Footer() {
     return (
@@ -38,8 +38,8 @@ export function Footer() {
               <a className="dark:text-slate-300">
                 <span className="sr-only">ngrok</span>
                 <div className="flex space-x-2 items-center">
-                  <span className="flex-auto invisible md:visible">Built with love by</span>
-                  <LogoNgrok className="flex-auto"/>
+                  <span className="flex-auto invisible md:visible">Supported by</span>
+                  <LogoSponsor className="flex-auto"/>
                 </div>
               </a>
             </Link>
