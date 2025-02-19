@@ -55,6 +55,7 @@ function Header({ navigation }) {
       </div>
 
       <div className="relative flex flex-grow basis-0 items-center justify-end space-x-6 sm:space-x-8">
+        <ThemeSelector className="relative z-10" />
         <Link href="https://hookdeck.com/?ref=webhooksfyi" target="_sponsor">
           <a className="dark:text-slate-300">
             <span className="sr-only">Hookdeck</span>
