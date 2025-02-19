@@ -41,26 +41,28 @@ function Header({ navigation }) {
       <div className="mr-6 lg:hidden">
         <MobileNavigation navigation={navigation} />
       </div>
-      <div className="relative flex flex-grow basis-0 items-center">
+      <div className="relative flex w-[48px] flex-grow basis-0 items-center lg:w-auto">
         <Link href="/">
-          <a className="block w-10 overflow-hidden lg:w-auto">
+          <a className="block w-[48px] overflow-hidden lg:w-auto">
             <span className="sr-only">Home page</span>
             <Logo />
           </a>
         </Link>
       </div>
-      
+
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
         <Search />
-      </div> 
-     
-      <div className="relative flex basis-0 justify-end items-center space-x-6 sm:space-x-8 md:flex-grow">
+      </div>
+
+      <div className="relative flex flex-grow basis-0 items-center justify-end space-x-6 sm:space-x-8">
         <Link href="https://hookdeck.com/?ref=webhooksfyi" target="_sponsor">
           <a className="dark:text-slate-300">
-            <span className="sr-only">ngrok</span>
-            <div className="flex space-x-2 items-center hover:fill-sky-500">
-              <span className="flex-auto invisible md:visible">Supported by</span>
-              <LogoSponsor className="flex-auto"/>
+            <span className="sr-only">Hookdeck</span>
+            <div className="flex items-center space-x-2 hover:fill-sky-500">
+              <span className="hidden flex-auto lg:inline-block">
+                Supported by
+              </span>
+              <LogoSponsor className="flex-auto" />
             </div>
           </a>
         </Link>
@@ -157,7 +159,7 @@ export function Layout({ children, title, navigation, tableOfContents }) {
               </div>
             )}
           </dl>
-          <Footer className="mt-12 flex border-t border-slate-200 pt-6 dark:border-slate-800 text-center text-slate-900 dark:text-white"/>
+          <Footer className="mt-12 flex border-t border-slate-200 pt-6 text-center text-slate-900 dark:border-slate-800 dark:text-white" />
           {/* <p className="mt-12 flex border-t border-slate-200 pt-6 dark:border-slate-800 text-center text-slate-900 dark:text-white">
             Supported by Hookdeck
           </p> */}
