@@ -56,7 +56,7 @@ function Header({ navigation }) {
      
       <div className="relative flex basis-0 justify-end items-center space-x-6 sm:space-x-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://ngrok.com" target="_ngrok">
+        <Link href="https://hookdeck.com/?ref=webhooksfyi" target="_sponsor">
           <a className="dark:text-slate-300">
             <span className="sr-only">ngrok</span>
             <div className="flex space-x-2 items-center hover:fill-sky-500">

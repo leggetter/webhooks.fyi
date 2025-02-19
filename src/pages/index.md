@@ -26,14 +26,9 @@ Our [contributing page](/docs/how-to-contribute) covers how you can help.
 
 Web development is hard. As you have more moving pieces integrating more systems across different organizations, it only becomes harder.
 
-At [ngrok](https://ngrok.com/), our goal is to simplify building for the internet. Since most people find us through their favorite webhook provider, we knew integrating webhook verification would make applications more secure and reliable at scale. During that effort, we investigated over 100 webhook providers and built in-product verifications for 50 of the most popular providers. We found practices that stood out as exceptionally powerful and others that left much to be desired.
+When we were at **ngrok**, we wanted to understand how people were building and using webhooks across the entire ecosystem. During that effort, we investigated over 100 webhook providers and built in-product verifications for 50 of the most popular providers. We found practices that stood out as exceptionally powerful and others that left much to be desired. Our goal in sharing this is to inform teams to choose patterns that make building and consuming webhooks easier, faster, and more secure.
 
-Our goal in sharing this is to inform teams to choose patterns that make building and consuming webhooks easier, faster, and more secure.
-
-[comment]: <TODO: @sudobinbash: Launch blog>
-[comment]: <{% callout title="We have a deep dive" %}>
-[comment]: <If you want to know more about our research and our key findings, read our [Deep Dive: Webhook Security In Practice](https://blog.ngrok.com/posts/get-webhooks-secure-it-depends-a-field-guide-to-we)>
-[comment]: <{% /callout %}>
+Since that time, we appreciate great sponsors such as [Hookdeck](https://hookdeck.com/?ref=webhooksfyi) supporting our efforts.
 
 ## Our contributors
 
