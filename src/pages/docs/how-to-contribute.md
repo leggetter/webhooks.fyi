@@ -4,7 +4,7 @@ description: How to contribute to our content, report mistakes, and add vendors 
 ---
 
 {% callout title="TL;DR" %}
-To contribute with webhooks.fyi, send us a [pull request](https://github.com/ngrok/webhooks.fyi). Ideas and how to contribute below.
+To contribute with webhooks.fyi, send us a [pull request](https://github.com/caseysoftware/webhooks.fyi). Ideas and how to contribute below.
 {% /callout %}
 
 ## How you can help
@@ -23,7 +23,7 @@ Note: We want easily observable facts, not subjective ratings of webhooks, APIs,
 
 ## Contributing a Patch
 
-1. Clone our [repository](https://github.com/ngrok/webhooks.fyi)
+1. Clone our [repository](https://github.com/caseysoftware/webhooks.fyi)
 1. Use the instructions in README.md to deploy locally
 1. Add your changes (most likely to markdown files under `/src/pages/`)
 1. Confirm that pages still render properly
@@ -36,8 +36,8 @@ Pull requests are welcome!
 
 ## Our contributors
 
-Thank you to [everyone who has contributed](https://github.com/ngrok/webhooks.fyi/contributors) to webhooks.fyi. We appreciate you!
+Thank you to [everyone who has contributed](https://github.com/caseysoftware/webhooks.fyi/contributors) to webhooks.fyi. We appreciate you!
 
-![Our contributors - image by contrib.rocks](https://contrib.rocks/image?repo=ngrok/webhooks.fyi)
+![Our contributors - image by contrib.rocks](https://contrib.rocks/image?repo=caseysoftware/webhooks.fyi)
 
  

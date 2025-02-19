@@ -132,8 +132,6 @@ export default function App({ Component, pageProps }) {
         <meta property="og:title" content={pageTitle} />
         <meta name="og:image" property="og:image" content="/banner.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@ngrokHQ" />
-        <meta name="twitter:creator" content="@ngrokHQ" />
         <meta name="twitter:image" content="https://webhooks.fyi/banner.png" />
       </Head>
       <Layout
