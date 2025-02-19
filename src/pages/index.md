@@ -26,7 +26,7 @@ Our [contributing page](/docs/how-to-contribute) covers how you can help.
 
 Web development is hard. As you have more moving pieces integrating more systems across different organizations, it only becomes harder.
 
-When we were at **ngrok**, we wanted to understand how people were building and using webhooks across the entire ecosystem. During that effort, we investigated over 100 webhook providers and built in-product verifications for 50 of the most popular providers. We found practices that stood out as exceptionally powerful and others that left much to be desired. Our goal in sharing this is to inform teams to choose patterns that make building and consuming webhooks easier, faster, and more secure.
+When we were at **ngrok**, we wanted to understand how people were building and using webhooks across the entire ecosystem. During that effort, we investigated over 100 webhook providers and found practices that stood out as exceptionally powerful and others that left much to be desired. Our goal in sharing this is to inform teams to choose patterns that make building and consuming webhooks easier, faster, and more secure.
 
 Since that time, we appreciate great sponsors such as [Hookdeck](https://hookdeck.com/?ref=webhooksfyi) supporting our efforts.
 
