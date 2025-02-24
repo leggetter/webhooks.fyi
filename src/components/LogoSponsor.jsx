@@ -1,8 +1,15 @@
+import Image from 'next/image'
+import HookdeckLogo from '../../public/img/hookdeck.svg'
+
 export function LogoSponsor() {
   return (
-    <>
-      <img src="/img/hookdeck-white.png" className="hidden dark:inline" />
-      <img src="/img/hookdeck-black.png" className="inline dark:hidden" />
-    </>
+    <Image
+      src={HookdeckLogo.src}
+      alt="Hookdeck"
+      layout="fixed"
+      width={178}
+      height={29}
+      className="invert dark:invert-0"
+    />
   )
 }
